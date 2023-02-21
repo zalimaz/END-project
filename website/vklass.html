@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vklass 2.0</title>
+    <header><link rel="stylesheet" href="../website/vkStyle/vk.css"></header>
+</head>
+<body>
+    <div id="container" class="loggin-container">
+      
+        <section id="loggin-info" class="loggin-information">
+            <div class="logo-header">
+               <img src="vkPICK/Header-logo.svg">
+               <img src="vKPick/Header-text.svg">
+            </div>
+            <div class="loggin-data">
+                <section class="Log-Alt-Bankid">
+                    <button> Logga in med BankID</button>
+                </section>
+                <section class="Log-Alt-Freja.id">
+                    <button> Logga in med Freja eID</button>
+                </section>
+                <section class="Log-Alt-Vklass.inlog">
+                    <button onclick="showDialog()"> Logga in med Vklass inloggningsuppgifter </button>
+                </section>
+            </div>
+        </section>
+        <section id="galleryContainer" class="Gallery-container">
+           <div class="slides">
+                <img src="vkPICK/SlidePick1.jpg">
+           </div>
+           <div class="slides">
+                <img src="vkPICK/SlidePick2.jpg">
+           </div>
+           <div class="slides">
+             <img src="vkPICK/SlidePick3.jpg">
+           </div>
+        </section>
+        <dialog  id="popup-dialog">
+            hello
+        </dialog>
+</body>
+<footer>
+    <script src="vkScript/vk.js"></script>
+</footer>
+</html>
