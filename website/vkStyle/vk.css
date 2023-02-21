@@ -79,6 +79,13 @@ button{
     font-family: sans-serif;
     font-size: 12px;
     text-align: left;
+    border: none;
+    border-radius: 100px;
+    
+}
+
+button:hover{
+background-color: #26408fd1;
 }
 
 button img{
@@ -93,6 +100,7 @@ dialog{
     background-color: rgb(144, 84, 84);
     z-index: 999;
     margin-top: 10px;
+    border: none;
 
 }
 
